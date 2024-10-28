@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"03 - Chainlink Automation/TimeBased.sol": "TimeBased"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"03 - Chainlink Automation/TimeBased.sol": {
+			"keccak256": "0x5a6ed5265eeaa44ba49eb3f80798fa557ef944fcdd693fd1ddf9f09b8c201828",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6743e280d052648ca1aa8354429e8151f2cdc38d449e716c59ee99649d942c83",
+				"dweb:/ipfs/QmX9HMa83Db6Qrr3yGXvU5Xr9anSBVfVw1Lu7MDy6rQiMa"
+			]
+		}
+	},
+	"version": 1
+}
