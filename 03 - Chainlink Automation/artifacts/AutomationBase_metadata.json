@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "OnlySimulatedBackend",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"03 - Chainlink Automation/CustomLogic_flattened.sol": "AutomationBase"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"03 - Chainlink Automation/CustomLogic_flattened.sol": {
+			"keccak256": "0xebd31f80f7c16629f1ac0002089ec7f69cee346e3b21e909958eaa25264ae57b",
+			"urls": [
+				"bzz-raw://b2c2b3232aeec906c62d3c8ba125ca5b25d19d1ebe900bb1369f6f0b2b6f9e22",
+				"dweb:/ipfs/QmNXN4mZHxkgJz8ghaApP9QqyVSk9N6rXcSzz3njs8GnkU"
+			]
+		}
+	},
+	"version": 1
+}
