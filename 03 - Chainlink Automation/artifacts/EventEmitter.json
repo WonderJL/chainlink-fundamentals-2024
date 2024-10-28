@@ -1,0 +1,105 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_9": {
+					"entryPoint": null,
+					"id": 9,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5060b08061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80633ebca8e114602d575b600080fd5b60336035565b005b3373ffffffffffffffffffffffffffffffffffffffff167fe3cba3b68882650dc76730e77105080229f9f61f5c33b10e9aa239ff26d01d9460405160405180910390a256fea264697066735822122085bc6f54aa2b7fe96b74685814392c44e2cf5f5aaf03cf87fed76252937563c264736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xB0 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x3EBCA8E1 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH32 0xE3CBA3B68882650DC76730E77105080229F9F61F5C33B10E9AA239FF26D01D94 PUSH1 0x40 MLOAD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP6 0xBC PUSH16 0x54AA2B7FE96B74685814392C44E2CF5F GAS 0xAF SUB 0xCF DUP8 INVALID 0xD7 PUSH3 0x529375 PUSH4 0xC264736F PUSH13 0x63430008130033000000000000 ",
+			"sourceMap": "132:456:0:-:0;;;353:16;;;;;;;;;;132:456;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@emitCountLog_18": {
+					"entryPoint": 53,
+					"id": 18,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b506004361060285760003560e01c80633ebca8e114602d575b600080fd5b60336035565b005b3373ffffffffffffffffffffffffffffffffffffffff167fe3cba3b68882650dc76730e77105080229f9f61f5c33b10e9aa239ff26d01d9460405160405180910390a256fea264697066735822122085bc6f54aa2b7fe96b74685814392c44e2cf5f5aaf03cf87fed76252937563c264736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x3EBCA8E1 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST CALLER PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND PUSH32 0xE3CBA3B68882650DC76730E77105080229F9F61F5C33B10E9AA239FF26D01D94 PUSH1 0x40 MLOAD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP6 0xBC PUSH16 0x54AA2B7FE96B74685814392C44E2CF5F GAS 0xAF SUB 0xCF DUP8 INVALID 0xD7 PUSH3 0x529375 PUSH4 0xC264736F PUSH13 0x63430008130033000000000000 ",
+			"sourceMap": "132:456:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;455:129;;;:::i;:::-;;;516:10;503:24;;;;;;;;;;;;455:129::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "35200",
+				"executionCost": "87",
+				"totalCost": "35287"
+			},
+			"external": {
+				"emitCountLog()": "1282"
+			}
+		},
+		"methodIdentifiers": {
+			"emitCountLog()": "3ebca8e1"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "msgSender",
+					"type": "address"
+				}
+			],
+			"name": "WantsToCount",
+			"type": "event"
+		},
+		{
+			"inputs": [],
+			"name": "emitCountLog",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

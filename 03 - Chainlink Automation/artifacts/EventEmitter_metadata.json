@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
+					}
+				],
+				"name": "WantsToCount",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "emitCountLog",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"03 - Chainlink Automation/EventEmitter.sol": "EventEmitter"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"03 - Chainlink Automation/EventEmitter.sol": {
+			"keccak256": "0x421082efb1162eac4e40bebb87b3ae1fd9ee9aada07c01e1543abc9f0805bbba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82877b12b8032d9cc93d19748e347ea116a9b0a1a89be28fc59db269e910bee4",
+				"dweb:/ipfs/QmYaYnu3u17SvUi4Y8uYUGBh8F3pcSsCsdbfu7zx7YFpAn"
+			]
+		}
+	},
+	"version": 1
+}
